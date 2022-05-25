@@ -3,6 +3,8 @@
 
 #include <QAbstractListModel>
 
+Q_MOC_INCLUDE("todolist.h")
+
 class ToDoList;
 
 class ToDoModel : public QAbstractListModel
